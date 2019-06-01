@@ -1,0 +1,8 @@
+<template>
+    <div>
+        <template if:true={showing}>
+            <p>Conditional Content</p>
+        </template>
+        <input checked={showing} type="checkbox" label="Show" onchange={handleShowChange}></input>
+    </div>
+</template>
