@@ -1,6 +1,6 @@
 import { LightningElement } from 'lwc';
 
-export default class HelloWorld extends LightningElement {
+export default class HelloWorldPlayer extends LightningElement {
     playerRef = null;
 
     renderedCallback() {
