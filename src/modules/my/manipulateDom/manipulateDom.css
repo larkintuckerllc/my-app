@@ -1,0 +1,8 @@
+.chart {
+  display: flex;
+}
+
+.chart__bar {
+  background-color: green;
+  flex-grow: 1;
+}

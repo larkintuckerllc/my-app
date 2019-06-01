@@ -5,6 +5,7 @@
     "author": "John Tucker",
     "bugs": "https://github.com/larkintuckerllc/my-app/issues",
     "dependencies": {
+        "d3": "^5.9.2",
         "lwc-services": "^1.0.4"
     },
     "devDependencies": {
