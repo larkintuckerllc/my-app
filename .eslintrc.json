@@ -1,10 +1,8 @@
 {
-    "extends": ["@salesforce/eslint-config-lwc/recommended", "prettier"],
-    "plugins": ["prettier"],
+    "extends": ["@salesforce/eslint-config-lwc/recommended", "plugin:prettier/recommended"],
     "rules": {
         "@lwc/lwc/no-async-operation": "warn",
         "@lwc/lwc/no-inner-html": "warn",
-        "@lwc/lwc/no-document-query": "warn",
-        "prettier/prettier": "error"
+        "@lwc/lwc/no-document-query": "warn"
     }
 }
