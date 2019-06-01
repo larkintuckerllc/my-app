@@ -1,0 +1,12 @@
+<template>
+    <div>
+        <template for:each={contacts} for:item="contact">
+            <my-contact
+              key={contact.id}
+              name={contact.name}
+              title={contact.title}
+            >
+            </my-contact>
+        </template>
+    </div>
+  </template>
