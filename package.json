@@ -6,7 +6,7 @@
     "bugs": "https://github.com/larkintuckerllc/my-app/issues",
     "dependencies": {
         "d3": "^5.9.2",
-        "lwc-services": "^1.0.4",
+        "lwc-services": "^3.2.2",
         "redux": "^4.0.1"
     },
     "devDependencies": {
